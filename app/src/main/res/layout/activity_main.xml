@@ -21,25 +21,34 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="244dp"
+        android:layout_height="350dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/whatsapp_image_2023_04_16_at_22_03_1__1__removebg_preview" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="290dp"
         android:layout_height="56dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/abrirconta"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/button"
         android:text="Abrir Conta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="296dp"
-        android:layout_height="70dp"
+        android:layout_height="56dp"
         android:layout_marginTop="14dp"
-        android:backgroundTint="#E35A51"
+        android:background="@drawable/button"
+        app:backgroundTint="@color/googlebutton"
         android:fontFamily="sans-serif"
         android:text="Entrar com o Google"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,26 +60,16 @@
     <Button
         android:id="@+id/button4"
         android:layout_width="296dp"
-        android:layout_height="70dp"
+        android:layout_height="56dp"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif"
         android:text="Já tenho Conta"
         android:background="@drawable/buttoninvisible"
+        app:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
         app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="226dp"
-        android:layout_height="299dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/whatsapp_image_2023_04_16_at_22_03_1" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

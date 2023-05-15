@@ -11,9 +11,15 @@ class TelaPrincipal : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tela_principal)
 
-        findViewById<Button>(R.id.btnMenu).setOnClickListener {
+        findViewById<ImageView>(R.id.btnMenu).setOnClickListener {
 
             val newIntent = Intent(this, Menu::class.java)
+
+            startActivity(newIntent)
+        }
+        findViewById<ImageView>(R.id.ivPlus).setOnClickListener {
+
+            val newIntent = Intent(this, NovaTransacao::class.java)
 
             startActivity(newIntent)
         }

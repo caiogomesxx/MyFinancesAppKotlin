@@ -13,7 +13,7 @@ class Login : AppCompatActivity() {
         findViewById<Button>(R.id.loginbtn).setOnClickListener {
 
 
-            val newIntent = Intent(this, Login::class.java)
+            val newIntent = Intent(this, TelaPrincipal::class.java)
 
 
             startActivity(newIntent)

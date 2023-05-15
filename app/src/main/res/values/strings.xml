@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyFinances</string>
+    <string name="title_activity_tela_principal">TelaPrincipal</string>
+    <string name="title_activity_menu">Menu</string>
 </resources>
